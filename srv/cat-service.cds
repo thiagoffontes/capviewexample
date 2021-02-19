@@ -50,4 +50,10 @@ service CatalogService {
                 })  as ValueMax : Decimal
             };
 
+    function getNewId() returns Integer;
+
+    function testeMultiInsertSuccess() returns Integer;
+
+    function testeMultiInsertError() returns Integer;
+
 }
